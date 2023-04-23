@@ -113,6 +113,8 @@
   height: 25%;
   background-image: linear-gradient(to bottom right, #FD8618, #FFE70B80);
   z-index: -1;
+  border-bottom-left-radius: 80px 50px;
+  border-bottom-right-radius: 80px 50px;
 }
 
 .nav {
@@ -155,11 +157,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 85%;
   height: 50px;
   background-color: #cccccc;
   border-radius: 10px;
-  margin: 10px auto;
+  margin: 15px auto;
   padding: 10px;
   font-size: 18px;
   text-align: center;
