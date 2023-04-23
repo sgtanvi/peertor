@@ -127,9 +127,30 @@
   /* your styles for the icon */
 }
 
+.big-board{
+  height: 15vh;
+  background-color: #282c34;
+  color: white;
+}
 
+.big-board .h1 {
+  position: absolute
+}
 
+.meeting-card {
+  display: flex;
+  position: relative;
+  margin: 10px;
+  background-color: #cccccc;
+  border-radius: 10px;
+  padding: 5px
+}
 
+.photo {
+  height: 90px;
+  width: 90px;
+  position: relative;
+}
 
 
 
