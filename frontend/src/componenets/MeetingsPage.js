@@ -4,7 +4,7 @@ function MeetingsPage() {
     return (
       <div>
         <header className="big-board">
-          <h1>Meetings</h1>
+          <h2>Meetings</h2>
         </header>
   
         <div className="meeting-card">

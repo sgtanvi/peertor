@@ -60,9 +60,9 @@
 
 .big-block {
   height: 25vh;
-  background: linear-gradient(to top, #ec9418, #e1972f, #f09517, #f8b195, #d2a64f, #c0a06c);
+  background: linear-gradient(to top, #ff8b3d, #ff781f, #ff8b3d);
   background-size: 100% 200%;
-  animation: gradient 10s ease-in-out infinite alternate;
+  animation: gradient 3s ease-in-out infinite alternate;
 }
 
 @keyframes gradient {
@@ -182,8 +182,8 @@ h2 {
   padding: 50px 0;
   text-align: center;
   height: 15vh;
-  background: linear-gradient(to top, #ec9418, #e1972f, #f09517, #f8b195, #d2a64f, #c0a06c);
-  animation: gradient 10s ease-in-out infinite alternate;
+  background: linear-gradient(to top, #ff8b3d, #ff781f, #ff8b3d);
+  animation: gradient 3s ease-in-out infinite alternate;
   color: white;
   
 }
@@ -248,4 +248,8 @@ h2 {
   justify-content: center;
   align-items: center;
   height: calc();
+}
+
+.button{
+  color: #ff8b3d;
 }

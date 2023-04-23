@@ -52,7 +52,7 @@ function Search() {
             <CardContent>
               {tutor.bio}
             </CardContent>
-            <Button variant="contained" color="primary" href={`https://calendly.com/${tutor.name.toLowerCase()}`}>
+            <Button variant="contained" sx={{bgcolor: '#ff781f'}} href={`https://calendly.com/${tutor.name.toLowerCase()}`}>
               Schedule a meeting
             </Button>
           </Card>

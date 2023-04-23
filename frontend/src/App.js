@@ -7,6 +7,7 @@ import MeetingsPage from './componenets/MeetingsPage';
 import Navigation from './componenets/Navigation';
 import Search from './componenets/Search';
 import Profile from './componenets/Profile';
+import Login from './componenets/Login';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/meetings" element={<MeetingsPage />} />
           <Route exact path="/search" element={<Search />} />
           <Route exact path="/profile" element={<Profile />} />
+          <Route exact path="/login" element={<Login />} />
         </Routes>
       </div>
       <Navigation/>
